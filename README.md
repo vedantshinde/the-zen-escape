@@ -39,7 +39,7 @@ Before using the API, you need to set the variables in Postman depending on your
   - {{password}} with your user password as value.
   ```
 
-## Build With
+## Technologies Used
 
 * [NodeJS](https://nodejs.org/en/) - JS runtime environment
 * [Express](http://expressjs.com/) - The web framework used
