@@ -4,8 +4,9 @@
   "description": "Learning NodeJs, Express and MongoDB",
   "main": "app.js",
   "scripts": {
-    "start": "npx forever -w server.js",
-    "st-normal:prod": "SET NODE_ENV=production&&node server.js",
+    "start": "node server.js",
+    "star:dev": "npx forever -w server.js",
+    "start-node:prod": "SET NODE_ENV=production&&node server.js",
     "start:prod": "SET NODE_ENV=production&&npx forever -w server.js",
     "debug": "ndb server.js",
     "debug:prod": "SET NODE_ENV=production&&ndb server.js",
