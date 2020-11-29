@@ -10,7 +10,7 @@ Check it out : https://the-zen-escape.herokuapp.com/
   <a href="#api-usage">API Usage</a> •
   <a href="#deployment">Deployment</a> •
   <a href="#technologies-used">Technologies Used</a> •
-  <a href="#installation">Installation</a> • 
+  <a href="#installation">Installation</a> 
 </p>
 
 ## Key Features
