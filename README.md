@@ -4,6 +4,15 @@
 ## Deployed Version
 Check it out : https://the-zen-escape.herokuapp.com/
 
+ <p align="center">
+  <a href="#key-features">Key Features</a> •
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#api-usage">API Usage</a> •
+  <a href="#deployment">Deployment</a> •
+  <a href="#technologies-used">Technologies Used</a> •
+  <a href="#installation">Installation</a> • 
+</p>
+
 ## Key Features
 
 * Authentication and Authorization
@@ -45,6 +54,9 @@ Before using the API, you need to set the variables in Postman depending on your
   - {{URL}} with your hostname as value (Eg. http://127.0.0.1:3000 or http://www.example.com)
   - {{password}} with your user password as value.
   ```
+  
+  Check the [API Documentation](https://documenter.getpostman.com/view/13429515/TVev3jej#intro) for more details on the API usage.
+  
 <b> API Features: </b>
 
 Tours List 👉 https://the-zen-escape.herokuapp.com/api/v1/tours
