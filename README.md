@@ -1,4 +1,5 @@
 <h1 align="center"><a href="https://the-zen-escape.herokuapp.com/">'The Zen Escape' Application</a></h1>
+<h4 align="center"> A full-stack tour booking application</h4>
 
 ## Deployed Version
 Check it out : https://the-zen-escape.herokuapp.com/
