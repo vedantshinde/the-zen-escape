@@ -38,7 +38,11 @@ app.options('*', cors());
 app.use(express.static(path.join(__dirname, 'public')));
 
 //SET SECURITY HTTP HEADERS
-//app.use(helmet());
+app.use(
+  helmet({
+    contentSecurityPolicy: false,
+  })
+);
 
 //DEVELOPMENT LOGGING
 if (process.env.NODE_ENV === 'development') {
@@ -93,11 +97,11 @@ app.use(compression());
 // });
 
 //test middleware
-app.use((req, res, next) => {
-  req.requestTime = new Date().toISOString();
+//app.use((req, res, next) => {
+//  req.requestTime = new Date().toISOString();
   // console.log(req.cookies);
-  next();
-});
+//  next();
+//});
 
 // 3) ROUTES
 
