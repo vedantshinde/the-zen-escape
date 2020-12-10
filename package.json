@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node server.js",
-    "star:dev": "npx forever -w server.js",
+    "start:dev": "npx forever -w server.js",
     "start-node:prod": "SET NODE_ENV=production&&node server.js",
     "start:prod": "SET NODE_ENV=production&&npx forever -w server.js",
     "debug": "ndb server.js",
